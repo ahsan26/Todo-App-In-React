@@ -1,0 +1,72 @@
+.todos_main_container{
+    margin: 10px;
+}
+.todo_container{
+    display: flex;
+    margin-bottom: 10px;
+}
+.todo_txt{
+    flex: 15;
+}
+.btn{
+    outline: none;
+    border: 0;
+    height: 35px;
+    color: #fff;
+    transition: all 0.20s ease-in-out;
+    cursor: pointer;
+}
+.edit{
+    margin-right: 9px;
+    background-color: dodgerblue;
+    flex: 1;
+}
+.remove{
+    flex: 1;
+    background-color: red;
+}
+.edit:hover{
+    background-color: #fff;
+    color: dodgerblue;
+    border: 2px solid  dodgerblue;
+}
+.remove:hover{
+    background-color: #fff;
+    color:red;
+    border: 2px solid red;
+}
+.save{
+    background-color: #1abc9c;
+    margin-left: 1%;
+    width: 105px;
+}
+.save:hover{
+    color: #1abc9c;
+    border: 2px solid #1abc9c;
+    background-color: #fff;
+}
+.todo_container input{
+    width: 85%;
+}
+#new_todo_container{
+    width: 50%;
+    background-color: skyblue;
+    margin: 10px auto;
+}
+#new_todo_container form{
+    display: flex;
+}    
+#new_todo_container form input {
+    flex: 6;
+}
+#new_todo_container form button{
+    flex: 1;
+    background-color: #8e44ad;
+}
+#none_todo_indicator{
+    text-align: center;     
+    margin-top: 25px;
+    color: #34495e;
+    font-weight: 600;
+    font-size: 125%;
+}
